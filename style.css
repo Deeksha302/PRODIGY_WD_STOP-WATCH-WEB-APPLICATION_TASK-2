@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121111;
+    background-image: url(image/5.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    background-image: url(image/6.jpeg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #e50d0d;
+    width: 90%;
+    max-width: 400px;
+}
+.container h1{
+    color: hwb(0 0% 0%);
+}
+
+.stopwatch {
+    color: hsla(210, 11%, 93%, 0.947);
+    font-weight: 10px;
+    font-size: 2em;
+    margin-bottom: 100px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 45%;
+}
+
+#startStopBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#resetBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .stopwatch {
+        font-size: 1.5em;
+    }
+
+    .buttons button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
